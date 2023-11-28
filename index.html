@@ -38,6 +38,9 @@
     <div class="trivel"><img id="trivel" src="path/trivel.jpg" alt="旅游"></div>
     <div class="prize-container"><img id="prizeImage" src="path/prize-image.jpg" alt="奖品卷"></div>
     <button class="hidden" onclick="showPrize()">开奖</button>
+    <audio autoplay loop>
+        <source src="path/gaobaiqiqiu.mp3" type="audio/mpeg">
+    </audio>
     <script>
         setTimeout(() => {
             document.querySelector('.text').textContent = '今天我们结婚已经3年啦';
@@ -60,23 +63,23 @@
         setTimeout(() => {
             document.querySelector('.text').textContent = '一会还要永远在一起，去更多的地方';
             document.querySelector('.trivel').style.display = 'none';
-        }, 7000); 
+        }, 6000); 
         setTimeout(() => {
             document.querySelector('.text').textContent = '你李老公';
-        }, 8000); 
+        }, 7000); 
         setTimeout(() => {
             document.querySelector('.text').textContent = '会爱妞妞';
-        }, 9000); 
+        }, 8000); 
         setTimeout(() => {
             document.querySelector('.text').textContent = '直到永远';
-        }, 10000); 
+        }, 9000); 
         setTimeout(() => {
             document.querySelector('.text').textContent = '爱你哦😗Love you forever';
-        }, 11000); 
+        }, 10000); 
         setTimeout(() => {
             document.querySelector('.text').textContent = '给老婆准备了个礼物，点个抽奖吧🙂';
             document.querySelector('.hidden').style.display = 'block'; // 显示按钮
-        }, 12000); 
+        }, 11000); 
         function showPrize() {
             document.querySelector('.text').textContent = ''
             document.querySelector('.prize-container').style.display = 'block'; // 显示奖品卷图片
